@@ -14,7 +14,7 @@ commands:
         kind: run
   - id: init-app
     exec:
-      label: "Run the application"
+      label: "webhook"
       component: python
       workingDir: ${PROJECTS_ROOT}/python-hello-world
       commandLine: curl https://route-zesty-skink-demo.apps.shailendra14k.in/getotp
