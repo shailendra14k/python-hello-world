@@ -17,7 +17,7 @@ commands:
       label: "webhook"
       component: python
       workingDir: ${PROJECTS_ROOT}/python-hello-world
-      commandLine: curl https://route-zesty-skink-demo.apps.shailendra14k.in/getotp
+      commandLine: curl https://webhook-demo.apps.shailendra14k.in/getotp
 events:
   preStop:
     - init-app
