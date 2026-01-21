@@ -17,7 +17,7 @@ commands:
       label: "webhook"
       component: python
       workingDir: ${PROJECTS_ROOT}/python-hello-world
-      commandLine: curl https://webhook-demo.apps.shailendra14k.in/getotp
+      commandLine: curl -X POST https://test-webhook-demo.apps.shailendra14k.in/camel/demo -H "Content-Type: application/x-www-form-urlencoded" -d "DevSapce-name=python-hello-world stopping......................"
 events:
   preStop:
     - init-app
